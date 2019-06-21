@@ -221,7 +221,7 @@ img {
   align-items: baseline;
   margin-top: 3%;
   padding-bottom: 20px;
-  border-bottom: 1px dashed;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home header h1 {
   width: 50%;
@@ -235,7 +235,7 @@ img {
 }
 .home .content-section .fun-bus-section {
   padding-bottom: 10px;
-  border-bottom: 1px dashed;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section .fun-bus-section .fun-bus-img {
   padding-bottom: 10px;
