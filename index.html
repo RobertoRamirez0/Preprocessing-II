@@ -19,8 +19,21 @@
   
      
   <div class="container home">
-   
+    <header>
+      <h1>Fun Bus</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
     <section class="content-section">
+      <div class="fun-bus-section">
+        <img src="img/fun-bus.jpg" class="fun-bus-img" alt="A fun bus!"/>
+        <h2>Welcome To Fun Bus!</h2>
+        <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p>
+      </div>
       <div class="text-content">
         <h2>Let's Go!</h2>
         <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p> 
@@ -64,6 +77,31 @@
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
+    <form>
+        <h2 class="sign-up">Choose your vacation!</h2>
+        <ul class="form-style-1">
+            <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="field3" class="field-long" />
+            </li>
+            <li>
+                <label>Vacation Package</label>
+                <select name="field4" class="field-select">
+                <option value="Advertise">Fun in the Sun</option>
+                <option value="Partnership">Mountain Excursion</option>
+                <option value="General Question">Island Getaway</option>
+                </select>
+            </li>
+            <li>
+                <label>Message <span class="required">*</span></label>
+                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+            </li>
+            <li class="submit-btn">
+                <input type="submit" value="Submit"/>
+            </li>
+        </ul>
+        </form>
   </div><!-- container -->
 
   <footer class="footer">

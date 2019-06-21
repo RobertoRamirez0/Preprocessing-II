@@ -1,1 +1,22 @@
 // Navigation Styles here
+.home header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3%;
+    font-size: 1.6rem;
+
+    @media @mobile {
+        width: 70%;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: @button-bg;
+    }
+}
