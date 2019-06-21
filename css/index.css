@@ -235,6 +235,13 @@ img {
     padding-bottom: 10px;
   }
 }
+@media (max-width: 768px) {
+  .home header {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+}
 .home header h1 {
   width: 50%;
 }
@@ -243,6 +250,12 @@ img {
     text-align: center;
     font-size: 3rem;
     padding-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .home header h1 {
+    text-align: center;
+    padding-bottom: 10px;
   }
 }
 .home .content-section {
@@ -328,6 +341,12 @@ img {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
@@ -339,6 +358,11 @@ img {
   .home .content-pick .destination {
     width: 90%;
     align-self: center;
+  }
+}
+@media (max-width: 768px) {
+  .home .content-pick .destination {
+    width: 75%;
   }
 }
 .home .content-pick .destination .btn {
@@ -353,4 +377,96 @@ img {
   background: black;
   color: #17A2B8;
   cursor: pointer;
+}
+.home form .sign-up {
+  padding-top: 10px;
+  text-align: center;
+}
+.home .form-style-1 {
+  margin: 10px auto;
+  padding: 10px 12px 10px 20px;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.home .form-style-1 li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+.home .form-style-1 label {
+  margin: 0 0 3px 0;
+  padding: 0px;
+  display: block;
+  font-weight: bold;
+}
+.home .form-style-1 input[type=text],
+.home .form-style-1 input[type=date],
+.home .form-style-1 input[type=datetime],
+.home .form-style-1 input[type=number],
+.home .form-style-1 input[type=search],
+.home .form-style-1 input[type=time],
+.home .form-style-1 input[type=url],
+.home .form-style-1 input[type=email],
+.home textarea,
+.home select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #BEBEBE;
+  padding: 7px;
+  margin: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+}
+.home .form-style-1 input[type=text]:focus,
+.home .form-style-1 input[type=date]:focus,
+.home .form-style-1 input[type=datetime]:focus,
+.home .form-style-1 input[type=number]:focus,
+.home .form-style-1 input[type=search]:focus,
+.home .form-style-1 input[type=time]:focus,
+.home .form-style-1 input[type=url]:focus,
+.home .form-style-1 input[type=email]:focus,
+.home .form-style-1 textarea:focus,
+.home .form-style-1 select:focus {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+.home .form-style-1 .field-divided {
+  width: 49%;
+}
+.home .form-style-1 .field-long {
+  width: 100%;
+}
+.home .form-style-1 .field-select {
+  width: 100%;
+}
+.home .form-style-1 .field-textarea {
+  height: 100px;
+}
+.home .form-style-1 .submit-btn {
+  display: flex;
+  justify-content: center;
+}
+.home .form-style-1 input[type=submit],
+.home .form-style-1 input[type=button] {
+  background: #17A2B8;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: white;
+}
+.home .form-style-1 input[type=submit]:hover,
+.home .form-style-1 input[type=button]:hover {
+  background: black;
+  color: #17A2B8;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.home .form-style-1 .required {
+  color: red;
 }
